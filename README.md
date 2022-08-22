@@ -37,6 +37,8 @@
 
 ## 5. 아키텍처도
 
+<img width="1188" alt="DropArchitecture" src="https://user-images.githubusercontent.com/88760828/185903861-4b114634-2617-4fa8-8c7e-aa2958f6c461.png">
+
 <br/>
 
 ## 6. 핵심 트러블 슈팅
