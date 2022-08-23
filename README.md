@@ -42,3 +42,6 @@
 <br/>
 
 ## 6. 핵심 트러블 슈팅
+1. 하나의 프로젝트 내 두개의 Spring Security</br>
+DDD 의 경험을 위해 각 도메인을 한명씩 담당하고 개발을 진행하다가 소통의 부재로 인해 두 개의 도메인에서 각 Spring Security 를 적용하였고 두 개의 Spring Security 인해 “Found 2 beans for type interface org.springframework.security.authentication.AuthenticationManag er, but none marked as primary” 오류가 발생하였습니다.
+이때 MSA 아키텍처의 필요성을 느끼고 각 도메인을 분리하여 프로젝트를 구성했다면 어떨까 생각이 들어 다음 프로젝트에 MSA 아키텍처를 적용하였습니다.
